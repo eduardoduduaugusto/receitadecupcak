@@ -1,0 +1,51 @@
+:root {
+    --roblox: #1c1f23;
+}
+
+* {
+    margin: 0 auto;
+    /* centralização */
+}
+
+body {
+    background-color: darkseagreen;
+    padding: 20px;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(225deg, rgba(255, 255, 255, .04) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(45deg, rgba(0, 0, 0, .18) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(315deg, rgba(0, 0, 0, .18) 25%, transparent 25%) 0 0/32px 32px,
+        var(--roblox);
+}
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: #1c1f23;
+    padding: 20px;
+    line-height: 180%;
+}
+main{
+    max-width: 700px;
+    position: relative;
+    background-color: #eca651;
+    padding: 10px; /* desgrudar elemntos das bordas */
+    border-radius: 15px; /* arredondar bordas */
+    box-shadow: 3px 3px 15px #000; /* sombras valores positivos são direita e rodapé, último valor é
+    expansão da sombra*/
+}
+img{
+    border-radius: 15px;
+    max-width: 100%;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+iframe{
+    border-radius: 20px;
+}
+footer{
+    background-color:#000;
+}
